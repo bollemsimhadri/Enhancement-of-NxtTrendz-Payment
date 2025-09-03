@@ -1,0 +1,95 @@
+.payments-con {
+  padding: 25px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.payments-heading {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #1f2460;
+  margin: 0;
+  font-weight: 600;
+}
+.sub-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #1f2460;
+  margin: 15px 0 15px;
+  font-weight: 600;
+}
+.payments-method-inputs {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+}
+.payments-method-i-con {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.payments-input {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.payment-method-lable {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #1f2460;
+  font-weight: 600;
+}
+.disabled-label {
+  color: #1f246070;
+}
+.order-btn {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: teal;
+  padding: 12px 24px;
+}
+
+.order-btn:disabled {
+  opacity: 0.5;
+  background-color: #636363;
+}
+
+.success-msg {
+  font-family: Roboto;
+  font-size: 18px;
+  color: teal;
+  font-weight: 500;
+}
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.popup-content {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
